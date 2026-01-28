@@ -1,0 +1,37 @@
+{
+  "name": "openclaude-bypass",
+  "version": "1.0.0",
+  "description": "OpenCode plugin that transforms system messages to bypass Claude Code restrictions",
+  "main": "openclaude.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "claude",
+    "bypass",
+    "plugin",
+    "system-message",
+    "anthropic",
+    "cli"
+  ],
+  "author": "heavenly",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heavenly/openclaude-bypass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heavenly/openclaude-bypass/issues"
+  },
+  "homepage": "https://github.com/heavenly/openclaude-bypass#readme",
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.1.0"
+  },
+  "files": [
+    "openclaude.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
